@@ -30,7 +30,11 @@
 
 
 
-
+@media (max-width: 479px){
+	.content {
+	  font-size: 1.2em;
+	}
+}
 
 @keyframes slideDown {
 	0% {
