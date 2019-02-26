@@ -1,3 +1,8 @@
+body {
+    -webkit-text-size-adjust: none;
+}
+
+
 #myvideo{
 	position: fixed;
     right: 0;
@@ -32,7 +37,7 @@
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
 	.content {
-	  font-size: 1.2em;
+	  font-size: 1.2rem;
 	}
 }
 
