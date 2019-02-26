@@ -50,6 +50,8 @@ body {
 .icon_detail{
 	padding-left: 100px;
 	cursor: pointer;
+	width: 50px;
+	height: 50px;
 }
 
 
@@ -71,6 +73,8 @@ body {
 	float: left;
 	padding-left: 350px;
 	cursor: pointer;
+	width: 50px;
+	height: 50px;
 }
 
 .text_skills{
@@ -116,12 +120,20 @@ body {
 	.cont{
 		padding-left: 95px;
 	}
+	.icon_detail{
+		width: 100px;
+		height: 100px;
+	}
+	.icon_skills{
+		width: 100px;
+		height: 100px;
+	}
 }
 
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
 	.content {
-	  font-size: 2.0rem;
+	  font-size: 2.5rem;
 	  padding:40px;
 	  padding-left: 0px;
 	}
