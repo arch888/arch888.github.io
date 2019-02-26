@@ -38,6 +38,8 @@ body {
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
 	.content {
 	  font-size: 2.2rem;
+	  padding:40px;
+	  padding-left: 0px;
 	}
 }
 
