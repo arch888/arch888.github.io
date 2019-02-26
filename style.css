@@ -94,7 +94,11 @@ body {
 .cont{
 	padding-left: 85px;
 }
-
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+	.icon_skills{
+		padding-left: 150px;
+	}
+}
 
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
