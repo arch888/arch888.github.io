@@ -10,9 +10,23 @@
 		<video autoplay muted style="" id="myvideo">
        		<source src="movie.mp4" type="video/mp4">
 		</video>
+
+
+
+		<div class="content hide" id="footer">
+			<center>Archit Kumar Dwevedi</center>
+		</div>
 	<script type="text/javascript">
     	var vid = document.getElementById("myvideo");
 		vid.playbackRate = 2.0;
+		setTimeout(function(){
+		 document.getElementById('footer').classList.remove('hide');
+		}, 10000);
+		// document.addEventListener('DOMContentLoaded', function() {
+		//   setTimeout(function() {
+		//     document.getElementById('test').className = 'slideDown';
+		//   }, 10000);
+		// }, false);
     </script>
   </body>
 </html>
