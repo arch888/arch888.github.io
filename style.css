@@ -100,10 +100,10 @@ body {
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
 	.icon_skills{
-		padding-left: 50px;
+		padding-left: 30px;
 	}
 	.text_detail{
-		padding-left: 50px;
+		padding-left: 30px;
 	}
 	.ski{
 		padding-left: 103px;
