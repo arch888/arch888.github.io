@@ -134,7 +134,7 @@ body {
 	
 .bottom {
   margin-left: 5%;
-  width: 90%;
+  width: 900px;
   margin-right: 5%;
 }
 .content{
@@ -224,7 +224,7 @@ body {
 .center_icon{
 	position: fixed;
 	bottom: 0;
-	margin-bottom: 30vh;
+	margin-bottom: 45vh;
 	margin-left: 40%;
 	animation-name: slideupicon;
 	animation-duration: 1s;
