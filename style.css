@@ -90,53 +90,64 @@ body {
 }
 
 .achi{
-	padding-left: 75px;
+	padding-left: 90px;
 }
 
 .proj{
-	padding-left: 60px;
+	padding-left: 84px;
 }
 
 .cont{
-	padding-left: 85px;
+	padding-left: 90px;
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+@media only screen and (min-device-width : 250px) and (max-device-width : 480px){
 	.icon_skills{
-		padding-left: 30px;
+		padding-left: 5vw;
 	}
 	.text_detail{
-		padding-left: 30px;
+		padding-left: 3vw;
+		font-size: 4vw;
 	}
 	.ski{
-		padding-left: 103px;
+		padding-left: 4vw;
 	}
 
 	.achi{
-		padding-left: 83px;
+		padding-left: 4vw;
 	}
 
 	.proj{
-		padding-left: 68px;
+		padding-left: 4vw;
 	}
 
 	.cont{
-		padding-left: 95px;
+		padding-left: 3vw;
 	}
 	.icon_detail{
-		width: 100px;
-		height: 100px;
+		width: 10vw;
+		height: 10vw;
+		padding-left: 9vw;
 	}
 	.icon_skills{
-		width: 100px;
-		height: 100px;
+		width: 10vw;
+		height: 10vw;
+	}
+	.icon_con{
+		padding-left: 9vw;
+	}
+	.icon_proj{
+		padding-left: 9.2vw;
+	}
+	.text_skills{
+		font-size: 4vw;
 	}
 }
 
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
 	.content {
-	  font-size: 2.5rem;
-	  padding:40px;
+	  font-size: 5vw;
+	  padding:5vw;
 	  padding-left: 0px;
 	}
 }
