@@ -224,7 +224,7 @@ body {
 .center_icon{
 	position: fixed;
 	bottom: 0;
-	margin-bottom: 45vh;
+	margin-bottom: 45%;
 	margin-left: 40%;
 	animation-name: slideupicon;
 	animation-duration: 1s;
