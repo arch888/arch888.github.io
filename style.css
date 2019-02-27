@@ -122,7 +122,7 @@
 
 
 @media only screen and (min-device-width : 641px) and (max-device-width : 960px) {
-	
+
 .bottom {
   margin-left: 15%;
   width: 70%;
@@ -133,8 +133,8 @@
 @media only screen and (min-device-width : 461px) and (max-device-width : 640px) {
 	
 .bottom {
-  margin-left: 5%;
-  width: 90%;
+  margin-left: 25px;
+  width: 250%;
   margin-right: 5%;
 }
 .content{
