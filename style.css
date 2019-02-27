@@ -121,7 +121,7 @@ body {
 /*Media Queries #######################################
 #######################################################
 #######################################################*/
-@media screen and (min-width: 645px) and (max-width: 959px){
+@media screen and (min-width: 40.1em) and (max-width: 59em){
 
 .bottom {
   margin-left: 15%;
@@ -130,7 +130,7 @@ body {
 }
 }
 
-@media screen and (min-width: 461px) and (max-width: 640px){
+@media screen and (min-width: 30.1em) and (max-width: 40em){
 	
 .bottom {
   margin-left: 5%;
@@ -142,7 +142,7 @@ body {
 }
 }
 
-@media screen and (min-width: 321px) and (max-width: 460px){
+@media screen and (min-width: 20.1em) and (max-width: 30em){
 	
 .bottom {
   margin-left: 2%;
@@ -174,7 +174,7 @@ body {
 
 
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 20em){
 	
 }
 
