@@ -56,6 +56,9 @@
 </div>
 
 
+<div class="rocket" id="anim_rocket">
+	<img src="img/rocket.png" width="180" height="180" class="rocket_icon">
+</div>
 
 <div class="stars"></div>
 <div class="twinkling"></div>
@@ -151,6 +154,11 @@
 		setTimeout(function(){
 		 document.getElementById('footer').classList.remove('hide');
 		}, 10000);
+
+
+		setTimeout(function(){
+			document.getElementById('anim_rocket').classList.add('hide');
+		},1000)
 
 
 
