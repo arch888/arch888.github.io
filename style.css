@@ -34,7 +34,9 @@
   z-index: 1;
 }
 
-
+.hide{
+	display: none;
+}
 
 .bottom {
   position: fixed;
