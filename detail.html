@@ -8,9 +8,68 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="detail.css">
+    <link rel="stylesheet" type="text/css" href="css/detail.css">
 </head>
 <body>
+
+
+	<div class="content hide" id="topper">
+			<center>Archit Kumar Dwevedi</center>
+	</div>
+
+
+
+<div class="container-fluid">
+	<div class="row no-gutter bottom hide" id="footer">
+		<div class="col">
+			<img src="img/details.png" class="icon_skills" onclick="showdetails()">
+			<p class="text_detail">Details</p>
+		</div>
+		<div class="col">
+				<img src="img/skills.png" class="icon_detail">
+				<p class="text_skills ski">Skills</p>
+			
+		</div>
+		<div class="col">
+				<img src="img/achieve.png" class="icon_detail icon_con">
+				<p class="text_skills achi">Conquest</p>
+		</div>
+		<div class="col">
+				<img src="img/project.png" class="icon_detail icon_proj">
+				<p class="text_skills proj">Project</p>
+		</div>
+		<div class="col">
+			
+				<img src="img/contact.png" class="icon_detail icon_cont">
+				<p class="text_skills cont">Contact</p>
+		</div>
+	</div>
+
+</div>
+
+
+
+<script type="text/javascript">
+		setTimeout(function(){
+		 document.getElementById('topper').classList.remove('hide');
+		}, 1000);
+		setTimeout(function(){
+		 document.getElementById('footer').classList.remove('hide');
+		}, 1000);
+		function showdetails(){
+			document.getElementById('jhg').classList.remove('hide');
+			document.getElementById('bgf').classList.remove('hide');
+			setTimeout(function(){
+				document.getElementById('bge').classList.remove('hide');
+			}, 1000);
+			setTimeout(function(){
+				document.getElementById('bgg').classList.remove('hide');
+			}, 2000);
+			setTimeout(function() {
+			  window.location.href = "detail.html";
+			}, 5000);
+		}
+</script>
 	
 
 </body>
