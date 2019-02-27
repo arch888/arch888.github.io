@@ -570,11 +570,13 @@
 
 .rocket_icon{
 	animation-name: rocketanim;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	width: 15vw;
 	height: 15vw;
 	margin-left: 45vw;
 }
+
+
 
 
 @keyframes rocketanim{
@@ -592,7 +594,9 @@
 
 
 
-@-webkit-keyframes slideup {
+
+
+@-webkit-keyframes rocketanim {
 	0% {
 		transform: translateY(2000px);
 	}
@@ -600,6 +604,8 @@
 		transform: translateY(1700px);
 	}
 	100% {
-		transform: translateY(0);
+		transform: translateY(-200);
 	}
 }
+
+
