@@ -29,6 +29,7 @@
   width: 100%;
   padding: 20px;
   padding-left: 0px;
+  padding-right: 0;
   animation-name: slideDown;
   animation-duration: 2s;
   z-index: 1;
@@ -52,9 +53,9 @@
   z-index: 1;
   display: grid;
   grid-template-columns: repeat(5,1fr);
-  margin-left: 25%;
-  width: 50%;
-  margin-right: 25%;
+  margin-left: 25vw;
+  width: 50vw;
+  margin-right: 25vw;
   margin-bottom: 0;
 }
 /*.hide{
@@ -123,123 +124,85 @@
 #######################################################*/
 
 
-@media screen and (min-width : 641px) and (max-width : 960px) {
-
-.bottom {
-  margin-left: 15%;
-  width: 70% !important;
-  margin-right: 15%;
-}
-}
-
-@media screen and (min-width : 461px) and (max-width : 640px) {
-	
-.bottom {
-  margin-left: 5%;
-  width: 900px !important;
-  margin-right: 5%;
-}
-.content{
-	font-size: 1.2em;
-}
-}
-
-
-@media screen and (min-width : 321px) and (max-width : 460px) {
-	
-.bottom {
-  margin-left: 25px;
-  width: 50% !important;
-  margin-right: 25px;
-}
-.text_skills{
-	font-size: 0.8em;
-}
-.text_detail{
-	font-size: .8em;
-}
-.ski{
-	margin-left: 12%;
-}
-.achi{
-	margin-left: 6%;
-}
-.proj{
-	margin-left: 6%;
-}
-.cont{
-	margin-left: 5%;
-}
-.content{
-	font-size: 1em;
-}
-}
-
-@media screen and (max-width : 320px) {
+@media screen and (max-width: 960px){
 
 }
 
-
-
-
-/*
-
-@media screen and (min-width: 40.1em) and (max-width: 59em){
-
-.bottom {
-  margin-left: 15%;
-  width: 70%;
-  margin-right: 15%;
-}
+@media screen and (max-width: 800px){
+	.bottom{
+		margin-left: 20vw;
+		margin-right: 20vw;
+		width: 60vw;
+	}
 }
 
-@media screen and (min-width: 30.1em) and (max-width: 40em){
-	
-.bottom {
-  margin-left: 5%;
-  width: 90%;
-  margin-right: 5%;
-}
-.content{
-	font-size: 1.2em;
-}
+@media screen and (max-width: 760px){
+	.bottom{
+		margin-left: 15vw;
+		margin-right: 15vw;
+		width: 70vw;
+	}
 }
 
-@media screen and (min-width: 20.1em) and (max-width: 30em){
-	
-.bottom {
-  margin-left: 2%;
-  width: 96%;
-  margin-right: 2%;
+@media screen and (max-width: 600px){
+	.bottom{
+		margin-left: 10vw;
+		margin-right: 10vw;
+		width: 80vw;
+	}
 }
-.text_skills{
-	font-size: 0.8em;
+@media screen and (max-width: 500px){
+	.bottom{
+		margin-left: 5vw;
+		margin-right: 5vw;
+		width: 90vw;
+	}
 }
-.text_detail{
-	font-size: .8em;
+@media screen and (max-width: 460px){
+	.bottom div{
+		padding: 10px;
+	}
 }
-.ski{
-	margin-left: 12%;
+@media screen and (max-width: 400px){
+	.bottom div{
+		padding: 5px;
+	}
+	.icon_skills{
+		width: 40px;
+		height: 40px;
+	}
+	.icon_detail{
+		width: 40px;
+		height: 40px;
+
+	}
+	.text_skills{
+		font-size: .8em;
+	}
+	.text_detail{
+		font-size: .8em;
+	}
 }
-.achi{
-	margin-left: 6%;
-}
-.proj{
-	margin-left: 6%;
-}
-.cont{
-	margin-left: 5%;
-}
-.content{
-	font-size: 1em;
-}
+@media screen and (max-width: 320px){
+	.icon_skills{
+		width: 30px;
+		height: 30px;
+	}
+	.icon_detail{
+		width: 30px;
+		height: 30px;
+
+	}
+	.text_skills{
+		font-size: .7em;
+	}
+	.text_detail{
+		font-size: .7em;
+	}
 }
 
 
 
-@media screen and (max-width: 20em){
-	
-}*/
 
 
 /*Animation for other page ############################
@@ -291,6 +254,51 @@
 	margin-left: 40%;
 	animation-name: slideupicon;
 	animation-duration: 1s;
+}
+
+
+@media screen and (max-width: 960px){
+
+}
+
+@media screen and (max-width: 800px){
+	
+.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 35%;
+}
+}
+
+@media screen and (max-width: 760px){
+	
+}
+
+@media screen and (max-width: 600px){
+	.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 30%;
+}
+}
+@media screen and (max-width: 500px){
+	
+}
+@media screen and (max-width: 460px){
+	.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 25%;
+}
+}
+@media screen and (max-width: 400px){
+	.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 20%;
+}
+}
+@media screen and (max-width: 320px){
+	.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 10%;
+}
 }
 
 
