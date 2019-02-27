@@ -34,21 +34,21 @@
 			<p class="text_detail">Details</p>
 		</div>
 		<div class="col">
-				<img src="img/skills.png" class="icon_detail">
+				<img src="img/skills.png" class="icon_detail" onclick="showskills()">
 				<p class="text_skills ski">Skills</p>
 			
 		</div>
 		<div class="col">
-				<img src="img/achieve.png" class="icon_detail icon_con">
+				<img src="img/achieve.png" class="icon_detail icon_con" onclick="showconquest()">
 				<p class="text_skills achi">Conquest</p>
 		</div>
 		<div class="col">
-				<img src="img/project.png" class="icon_detail icon_proj">
+				<img src="img/project.png" class="icon_detail icon_proj" onclick="showproj()">
 				<p class="text_skills proj">Project</p>
 		</div>
 		<div class="col">
 			
-				<img src="img/contact.png" class="icon_detail icon_cont">
+				<img src="img/contact.png" class="icon_detail icon_cont" onclick="showcont()">
 				<p class="text_skills cont">Contact</p>
 		</div>
 	</div>
@@ -56,7 +56,9 @@
 </div>
 
 		
-
+<!-- Showing Details ###########################################3
+################################################################
+################################################################-->
 
 <div class="some hide" id="jhg">
 	<div class="first hide" id="bgf"></div>
@@ -69,6 +71,20 @@
 </div>
 
 
+<!-- Showing Skills ###########################################
+################################################################
+################################################################-->
+
+
+<div class="some hide" id="anim_skill_bg">
+	<div class="first hide" id="anim_skill1"></div>
+	<div class="second hide" id="anim_skill2"></div>
+</div>
+
+
+<div class="showing hide" id="anim_skill_img">
+	<img src="img/skills.png" width="250" height="250" class="center_icon">
+</div>
 
 
 
@@ -84,6 +100,11 @@
 		setTimeout(function(){
 		 document.getElementById('footer').classList.remove('hide');
 		}, 10000);
+
+
+
+
+
 		function showdetails(){
 			document.getElementById('jhg').classList.remove('hide');
 			document.getElementById('bgf').classList.remove('hide');
@@ -95,6 +116,21 @@
 			}, 2000);
 			setTimeout(function() {
 			  window.location.href = "detail.html";
+			}, 5000);
+		}
+
+
+		function showskills(){
+			document.getElementById('anim_skill_bg').classList.remove('hide');
+			document.getElementById('anim_skill1').classList.remove('hide');
+			setTimeout(function(){
+				document.getElementById('anim_skill2').classList.remove('hide');
+			}, 1000);
+			setTimeout(function(){
+				document.getElementById('anim_skill_img').classList.remove('hide');
+			}, 2000);
+			setTimeout(function() {
+			  window.location.href = "skill.html";
 			}, 5000);
 		}
     </script>

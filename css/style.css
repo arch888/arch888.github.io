@@ -301,6 +301,16 @@
 }
 
 
+
+#anim_skill1{
+	background-color: #007ab2;
+}
+#anim_skill2{
+	background-color: #002333;
+}
+
+
+
 @media screen and (max-width: 960px){
 
 }
