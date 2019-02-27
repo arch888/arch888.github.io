@@ -67,7 +67,7 @@
 	justify-content: center !important;
   	padding-top: 10px;
   	cursor: pointer;
-  	background-color: #000a12;
+  	/*background-color: #000a12;*/
   	margin-bottom: 15px;
 }
 
@@ -84,9 +84,9 @@
 	border-bottom-right-radius: 15px;
 }
 
-.bottom div:hover{
+/*.bottom div:hover{
 	background-color: #37474f;
-}
+}*/
 
 .icon_skills{
 	width: 50px;
@@ -123,7 +123,7 @@
 #######################################################*/
 
 
-@media only screen and (min-device-width : 641px) and (max-device-width : 960px) {
+@media screen and (min-width : 641px) and (max-width : 960px) {
 
 .bottom {
   margin-left: 15%;
@@ -132,7 +132,7 @@
 }
 }
 
-@media only screen and (min-device-width : 461px) and (max-device-width : 640px) {
+@media screen and (min-width : 461px) and (max-width : 640px) {
 	
 .bottom {
   margin-left: 5%;
@@ -145,7 +145,7 @@
 }
 
 
-@media only screen and (min-device-width : 321px) and (max-device-width : 460px) {
+@media screen and (min-width : 321px) and (max-width : 460px) {
 	
 .bottom {
   margin-left: 25px;
@@ -175,7 +175,7 @@
 }
 }
 
-@media only screen and (max-device-width : 320px) {
+@media screen and (max-width : 320px) {
 
 }
 
