@@ -119,6 +119,69 @@
 /*Media Queries #######################################
 #######################################################
 #######################################################*/
+
+
+@media only screen and (min-device-width : 641px) and (max-device-width : 960px) {
+	
+.bottom {
+  margin-left: 15%;
+  width: 70%;
+  margin-right: 15%;
+}
+}
+
+@media only screen and (min-device-width : 461px) and (max-device-width : 640px) {
+	
+.bottom {
+  margin-left: 5%;
+  width: 90%;
+  margin-right: 5%;
+}
+.content{
+	font-size: 1.2em;
+}
+}
+
+
+@media only screen and (min-device-width : 321px) and (max-device-width : 460px) {
+	
+.bottom {
+  margin-left: 2%;
+  width: 96%;
+  margin-right: 2%;
+}
+.text_skills{
+	font-size: 0.8em;
+}
+.text_detail{
+	font-size: .8em;
+}
+.ski{
+	margin-left: 12%;
+}
+.achi{
+	margin-left: 6%;
+}
+.proj{
+	margin-left: 6%;
+}
+.cont{
+	margin-left: 5%;
+}
+.content{
+	font-size: 1em;
+}
+}
+
+@media only screen and (max-device-width : 320px) {
+
+}
+
+
+
+
+/*
+
 @media screen and (min-width: 40.1em) and (max-width: 59em){
 
 .bottom {
@@ -174,7 +237,7 @@
 
 @media screen and (max-width: 20em){
 	
-}
+}*/
 
 
 /*Animation for other page ############################
@@ -222,7 +285,7 @@
 .center_icon{
 	position: fixed;
 	bottom: 0;
-	margin-bottom: 45%;
+	margin-bottom: 30vh;
 	margin-left: 40%;
 	animation-name: slideupicon;
 	animation-duration: 1s;
