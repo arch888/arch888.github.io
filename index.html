@@ -20,7 +20,7 @@
 
 		<div class="bottom hide" id="footer">
 			<div>
-				<img src="details.png" class="icon_skills">
+				<img src="details.png" class="icon_skills" onclick="showdetails()">
 				<img src="skills.png" class="icon_detail">
 				<img src="achieve.png" class="icon_detail icon_con">
 				<img src="project.png" class="icon_detail icon_proj">
@@ -39,6 +39,21 @@
 		</div>
 
 
+<div class="some hide" id="bgf">
+	<div class="first"></div>
+	<div class="second"></div>
+</div>
+
+
+<div class="showing hide" id="bge">
+	<img src="details.png" width="250" height="250" style="margin-top: 15%;margin-left: 40%;" class="center_icon">
+</div>
+
+
+
+
+
+
 
 
 	<script type="text/javascript">
@@ -50,6 +65,13 @@
 		setTimeout(function(){
 		 document.getElementById('footer').classList.remove('hide');
 		}, 10000);
+		function showdetails(){
+			document.getElementById('bgf').classList.remove('hide');
+			document.getElementById('bge').classList.remove('hide');
+			setTimeout(function() {
+			  window.location.href = "about.html";
+			}, 3000);
+		}
     </script>
   </body>
 </html>
