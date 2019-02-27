@@ -127,7 +127,7 @@
 
 .bottom {
   margin-left: 15%;
-  width: 70%;
+  width: 70% !important;
   margin-right: 15%;
 }
 }
@@ -136,7 +136,7 @@
 	
 .bottom {
   margin-left: 5%;
-  width: 90%;
+  width: 900px !important;
   margin-right: 5%;
 }
 .content{
@@ -149,7 +149,7 @@
 	
 .bottom {
   margin-left: 25px;
-  width: 960px;
+  width: 960px !important;
   margin-right: 25px;
 }
 .text_skills{
