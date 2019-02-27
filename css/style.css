@@ -273,6 +273,7 @@
 	animation-duration: 1s;
 }
 
+
 .second{
 	width: 50%;
 	height: 100%;
@@ -299,7 +300,7 @@
 	margin-bottom: 30vh;
 	margin-left: 41vw;
 	animation-name: slideupicon;
-	animation-duration: 1s;
+	animation-duration: 2s;
 }
 
 
