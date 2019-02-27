@@ -1,6 +1,4 @@
-body {
-    -webkit-text-size-adjust: none;
-}
+
 
 /*Video ###############################################
 #######################################################
@@ -134,7 +132,7 @@ body {
 	
 .bottom {
   margin-left: 5%;
-  width: 900px;
+  width: 90%;
   margin-right: 5%;
 }
 .content{
