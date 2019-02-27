@@ -55,9 +55,9 @@
   margin-right: 25%;
   margin-bottom: 0;
 }
-.hide{
+/*.hide{
 	display: none;
-}
+}*/
 
 .bottom div{
 	display: grid;
@@ -133,8 +133,8 @@
 @media only screen and (min-device-width : 461px) and (max-device-width : 640px) {
 	
 .bottom {
-  margin-left: 25px;
-  width: 250%;
+  margin-left: 5%;
+  width: 90%;
   margin-right: 5%;
 }
 .content{
@@ -146,9 +146,9 @@
 @media only screen and (min-device-width : 321px) and (max-device-width : 460px) {
 	
 .bottom {
-  margin-left: 2%;
-  width: 96%;
-  margin-right: 2%;
+  margin-left: 25px;
+  width: 960px;
+  margin-right: 25px;
 }
 .text_skills{
 	font-size: 0.8em;
