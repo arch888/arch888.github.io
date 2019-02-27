@@ -59,8 +59,6 @@
 
 <div class="stars"></div>
 <div class="twinkling"></div>
-		<!-- 
-<canvas id="c"></canvas> -->
 
 
 <!-- Showing Details ###########################################3
@@ -93,10 +91,52 @@
 	<img src="img/skills.png" width="250" height="250" class="center_icon">
 </div>
 
+<!-- Showing Conquest ###########################################
+################################################################
+################################################################-->
+
+<div class="some hide" id="anim_conquest_bg">
+	<div class="first hide" id="anim_conquest1"></div>
+	<div class="second hide" id="anim_conquest2"></div>
+</div>
+
+
+<div class="showing hide" id="anim_conquest_img">
+	<img src="img/achieve.png" width="250" height="250" class="center_icon">
+</div>
+
+
+<!-- Showing Project ###########################################
+################################################################
+################################################################-->
+
+
+<div class="some hide" id="anim_proj_bg">
+	<div class="first hide" id="anim_proj1"></div>
+	<div class="second hide" id="anim_proj2"></div>
+</div>
+
+
+<div class="showing hide" id="anim_proj_img">
+	<img src="img/project.png" width="250" height="250" class="center_icon">
+</div>
 
 
 
+<!-- Showing Contact ###########################################
+################################################################
+################################################################-->
 
+
+<div class="some hide" id="anim_cont_bg">
+	<div class="first hide" id="anim_cont1"></div>
+	<div class="second hide" id="anim_cont2"></div>
+</div>
+
+
+<div class="showing hide" id="anim_cont_img">
+	<img src="img/contact.png" width="250" height="250" class="center_icon">
+</div>
 
 
 <script type="text/javascript" src="js/stars.js"></script>
@@ -142,6 +182,48 @@
 			}, 2000);
 			setTimeout(function() {
 			  window.location.href = "skill.html";
+			}, 5000);
+		}
+
+		function showconquest(){
+			document.getElementById('anim_conquest_bg').classList.remove('hide');
+			document.getElementById('anim_conquest1').classList.remove('hide');
+			setTimeout(function(){
+				document.getElementById('anim_conquest2').classList.remove('hide');
+			}, 1000);
+			setTimeout(function(){
+				document.getElementById('anim_conquest_img').classList.remove('hide');
+			}, 2000);
+			setTimeout(function() {
+			  window.location.href = "conquest.html";
+			}, 5000);
+		}
+
+		function showproj(){
+			document.getElementById('anim_proj_bg').classList.remove('hide');
+			document.getElementById('anim_proj1').classList.remove('hide');
+			setTimeout(function(){
+				document.getElementById('anim_proj2').classList.remove('hide');
+			}, 1000);
+			setTimeout(function(){
+				document.getElementById('anim_proj_img').classList.remove('hide');
+			}, 2000);
+			setTimeout(function() {
+			  window.location.href = "project.html";
+			}, 5000);
+		}
+
+		function showcont(){
+			document.getElementById('anim_cont_bg').classList.remove('hide');
+			document.getElementById('anim_cont1').classList.remove('hide');
+			setTimeout(function(){
+				document.getElementById('anim_cont2').classList.remove('hide');
+			}, 1000);
+			setTimeout(function(){
+				document.getElementById('anim_cont_img').classList.remove('hide');
+			}, 2000);
+			setTimeout(function() {
+			  window.location.href = "contact.html";
 			}, 5000);
 		}
     </script>

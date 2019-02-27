@@ -313,6 +313,31 @@
 
 
 
+#anim_proj1{
+	background-color: #fc4a1a;
+}
+#anim_proj2{
+	background-color: #4abdac;
+}
+
+
+#anim_conquest1{
+	background-color: #a239ca;
+}
+#anim_conquest2{
+	background-color: #4717f6;
+}
+
+
+#anim_cont1{
+	background-color: #813772;
+}
+#anim_cont2{
+	background-color: #b82601;
+}
+
+
+
 @media screen and (max-width: 960px){
 	
 .center_icon{
@@ -529,14 +554,3 @@
 }
 
 
-/*
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
-
-canvas{
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 2;
-}*/
