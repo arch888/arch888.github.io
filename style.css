@@ -202,6 +202,51 @@
 }
 
 
+@media screen and (max-width: 460px){
+	.bottom div{
+		padding: 10px;
+	}
+}
+@media screen and (max-width: 400px){
+	.bottom div{
+		padding: 5px;
+	}
+	.icon_skills{
+		width: 40px;
+		height: 40px;
+	}
+	.icon_detail{
+		width: 40px;
+		height: 40px;
+
+	}
+	.text_skills{
+		font-size: .8em;
+	}
+	.text_detail{
+		font-size: .8em;
+	}
+}
+@media screen and (max-width: 320px){
+	.icon_skills{
+		width: 30px;
+		height: 30px;
+	}
+	.icon_detail{
+		width: 30px;
+		height: 30px;
+
+	}
+	.text_skills{
+		font-size: .7em;
+	}
+	.text_detail{
+		font-size: .7em;
+	}
+}
+
+
+
 
 
 
