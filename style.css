@@ -121,7 +121,7 @@ body {
 /*Media Queries #######################################
 #######################################################
 #######################################################*/
-@media screen and (max-device-width: 959px){
+@media only screen and (min-device-width: 645px) and (max-device-width: 959px){
 
 .bottom {
   margin-left: 15%;
@@ -130,7 +130,7 @@ body {
 }
 }
 
-@media screen and (max-device-width: 640px){
+@media only screen and (min-device-width: 461px) and (max-device-width: 640px){
 	
 .bottom {
   margin-left: 5%;
@@ -142,7 +142,7 @@ body {
 }
 }
 
-@media screen and (max-device-width: 460px){
+@media only screen and (min-device-width: 321px) and (max-device-width: 460px){
 	
 .bottom {
   margin-left: 2%;
