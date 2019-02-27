@@ -295,7 +295,7 @@
 	position: fixed;
 	bottom: 0;
 	margin-bottom: 30vh;
-	margin-left: 40%;
+	margin-left: 41vw;
 	animation-name: slideupicon;
 	animation-duration: 1s;
 }
@@ -312,19 +312,27 @@
 
 
 @media screen and (max-width: 960px){
-
+	
+.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 37vw;
+}
 }
 
 @media screen and (max-width: 800px){
 	
 .center_icon{
 	margin-bottom: 30vh;
-	margin-left: 35%;
+	margin-left: 34.5vw;
 }
 }
 
 @media screen and (max-width: 760px){
-	
+		
+.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 34vw;
+}
 }
 
 @media screen and (max-width: 600px){
@@ -334,12 +342,15 @@
 }
 }
 @media screen and (max-width: 500px){
-	
+	.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 26vw;
+}
 }
 @media screen and (max-width: 460px){
 	.center_icon{
 	margin-bottom: 30vh;
-	margin-left: 25%;
+	margin-left: 23vw;
 }
 }
 @media screen and (max-width: 400px){
@@ -348,10 +359,53 @@
 	margin-left: 20%;
 }
 }
+
+@media screen and (max-width: 390px){
+	.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 19.5%;
+}
+}
+@media screen and (max-width: 380px){
+	.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 18.7%;
+}
+}
+@media screen and (max-width: 370px){
+	.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 18%;
+}
+}
+@media screen and (max-width: 360px){
+	.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 17%;
+}
+}
+@media screen and (max-width: 350px){
+	.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 16%;
+}
+}
+@media screen and (max-width: 340px){
+	.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 15%;
+}
+}
+@media screen and (max-width: 330px){
+	.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 14%;
+}
+}
 @media screen and (max-width: 320px){
 	.center_icon{
 	margin-bottom: 30vh;
-	margin-left: 10%;
+	margin-left: 12.5%;
 }
 }
 
