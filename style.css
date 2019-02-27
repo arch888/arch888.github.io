@@ -58,9 +58,9 @@
   margin-right: 25vw;
   margin-bottom: 0;
 }
-/*.hide{
+.hide{
 	display: none;
-}*/
+}
 
 .bottom div{
 	display: grid;
