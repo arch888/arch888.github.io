@@ -969,7 +969,7 @@
 		width: 65vw;
 	}
 	#about{
-		margin-bottom: 32vh;
+		margin-bottom: 30vh;
 	}
 }
 @media screen and (max-width: 450px){
@@ -1012,7 +1012,7 @@
 		width: 90vw;
 	}
 	#about{
-		margin-bottom: 28vh;
+		margin-bottom: 25vh;
 	}
 }
 @media screen and (max-width: 320px){
