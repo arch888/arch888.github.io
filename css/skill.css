@@ -531,12 +531,12 @@
 
 .stars {
   background:transparent url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
-  z-index:20;
+  z-index:10;
 }
 
 .twinkling{
   background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
-  z-index:10;
+  z-index:20;
 
   -moz-animation:move-twink-back 200s linear infinite;
   -ms-animation:move-twink-back 200s linear infinite;
@@ -545,7 +545,7 @@
   animation:move-twink-back 200s linear infinite;
 }
 
-/*############### Details CSS #####################################*/
+/*############### Skills CSS #####################################*/
 
 
 
@@ -634,3 +634,366 @@
 		-webkit-transform: translateY(200%);
 	}	
 }
+
+.boxes{
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: auto;
+	background: transparent;
+	z-index: 21;
+	display: flex;
+	justify-content: center;
+	transform: perspective(3000px) rotateX(75deg) rotateZ(-10deg);
+	transform-style: preserve-3d;
+}
+
+
+.boxes2{
+	position: fixed;
+	top: 0;
+	left: 35vw;
+	margin: auto;
+	background: transparent;
+	z-index: 21;
+	display: flex;
+	justify-content: center;
+	transform: perspective(3000px) rotateX(75deg) rotateY(0deg) rotateZ(-10deg);
+	transform-style: preserve-3d;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
+	width: 15vw;
+	height: 15vw;
+	margin: auto;
+	background: rgba(0,166,214,1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin-left: 40%;
+	margin-top: 15%;
+	border-radius: 2vw;
+	margin-left: 1.5vw;
+	margin-top: 150vh;
+}
+.box1, .box6{
+	box-shadow: 0 0 25px rgb(0,166,214);
+}
+.box2, .box7{
+	transform: translateZ(25px);
+	background: rgba(153,223,255,1);
+	box-shadow: 0 0 25px rgb(153,223,255);
+}
+.box3, .box8{
+	transform: translateZ(50px);
+	background: red;
+	background: rgba(0,166,214,1);
+	box-shadow: 0 0 25px rgb(0,166,214);
+}
+.box4, .box9{
+	transform: translateZ(75px);
+	background: blue;
+	background: rgba(153,223,255,1);
+	box-shadow: 0 0 25px rgb(153,223,255);
+}
+.box5, .box10{
+	transform: translateZ(100px);
+	background: rgba(0,166,214,1);
+	box-shadow: 0 0 25px rgb(0,166,214);
+}
+
+
+.box5 img, .box4 img, .box3 img, .box2 img, .box1 img, .box6 img, .box7 img, .box8 img,
+.box9 img, .box10 img{
+	display: grid;
+	margin: auto;
+	width: 15vw;
+	height: 15vw;
+}
+
+.mjk{
+
+	animation-name: go4;
+	animation-duration: 1s;
+}
+
+.mjl{
+
+	animation-name: go3;
+	animation-duration: 1s;
+}
+.mjm{
+
+	animation-name: go2;
+	animation-duration: 1s;
+}
+.mjn{
+
+	animation-name: go1;
+	animation-duration: 1s;
+}
+
+.arrow{
+	position: fixed;
+	left: 10vw;
+	z-index: 23;
+	top: 30vh;
+	width: 8vw;
+	height: 8vw;
+	margin-top: 15vh;
+	margin-left: 0;
+	animation-name: arrw;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-delay: 3s;
+}
+.arrow i{
+	cursor: pointer;
+}
+.arrow1{
+	position: fixed;
+	left: 90vw;
+	z-index: 23;
+	top: 30vh
+	width: 8vw;
+	height: 8vw;
+	margin-top: 45vh;
+	margin-left: 0;
+	animation-name: arrw;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-delay: 4s;
+}
+.arrow1 i{
+	cursor: pointer;
+}
+
+
+@media screen and (max-width: 1000px){
+	.box1, .box2, .box3, .box4, .box5{
+		margin-left: 1vw;
+	}
+}
+@media screen and (max-width: 950px){
+	.box1, .box2, .box3, .box4, .box5{
+		margin-left: 0vw;
+	}
+	.arrow1{
+		left: 95vw;
+	}
+}
+@media screen and (max-width: 900px){
+	
+}
+@media screen and (max-width: 850px){
+	
+}
+@media screen and (max-width: 800px){
+	
+}
+@media screen and (max-width: 700px){
+	.boxes2{
+		top: 85vh;
+		left: 0;
+		position: absolute;
+	}
+	.boxes{
+		position: absolute;
+	}
+	.stars, .twinkling{
+		height: 200vh;
+	}
+	.arrow{
+		position: absolute;
+	}
+	.arrow1{
+		position: absolute;
+		left: 80vw;
+		top: 85vh;
+	}
+	.skill_page{
+		overflow-y: scroll;
+		max-height: 200vh;
+	}
+	.box1, .box2, .box3, .box4, .box5{
+		width: 20vw;
+		height: 20vw;
+	}
+	.box6, .box7, .box8, .box9, .box10{
+		width: 20vw;
+		height: 20vw;
+	}
+}
+@media screen and (max-width: 750px){
+	
+}
+@media screen and (max-width: 700px){
+	
+}
+@media screen and (max-width: 650px){
+	
+}
+@media screen and (max-width: 600px){
+	
+}
+@media screen and (max-width: 550px){
+	.arrow{
+		left: 20vw;
+	}
+	.boxes2{
+		left:0vw;
+	}
+	.arrow1{
+		left: 20vw;
+	}
+	.box1, .box2, .box3, .box4, .box5{
+		width: 25vw;
+		height: 25vw;
+	}
+	.box6, .box7, .box8, .box9, .box10{
+		width: 25vw;
+		height: 25vw;
+	}
+	.boxes{
+		top: 10vh;
+	}
+	.arrow{
+		top: 25vh;
+	}
+}
+@media screen and (max-width: 500px){
+	
+}
+@media screen and (max-width: 450px){
+	
+}
+@media screen and (max-width: 400px){
+	.boxes, .boxes2{
+		transform: perspective(5000px) rotateX(75deg) rotateY(0deg) rotateZ(-10deg);
+	}
+	.arrow{
+		top:25vh;
+	}
+
+	.arrow1{
+		top:75vh;
+	}
+}
+@media screen and (max-width: 350px){
+	.boxes, .boxes2{
+		transform: perspective(20000px) rotateX(75deg) rotateY(0deg) rotateZ(-10deg);
+	}
+	.box1, .box2, .box3, .box4, .box5{
+		width: 40vw;
+		height: 40vw;
+	}
+	.box6, .box7, .box8, .box9, .box10{
+		width: 40vw;
+		height: 40vw;
+	}
+	.box5 img, .box4 img, .box3 img, .box2 img, .box1 img, .box6 img, .box7 img, .box8 img,
+.box9 img, .box10 img{
+	width: 35vw;
+	height: 35vw;
+}
+}
+@media screen and (max-width: 320px){
+	
+}
+
+/*
+@media screen and (max-width: 1000px){
+
+}
+@media screen and (max-width: 950px){
+	
+}
+@media screen and (max-width: 900px){
+	
+}
+@media screen and (max-width: 850px){
+	
+}
+@media screen and (max-width: 800px){
+	
+}
+@media screen and (max-width: 750px){
+	
+}
+@media screen and (max-width: 700px){
+	
+}
+@media screen and (max-width: 650px){
+	
+}
+@media screen and (max-width: 600px){
+	
+}
+@media screen and (max-width: 550px){
+	
+}
+@media screen and (max-width: 500px){
+	
+}
+@media screen and (max-width: 450px){
+	
+}
+@media screen and (max-width: 400px){
+	
+}
+@media screen and (max-width: 350px){
+	
+}
+@media screen and (max-width: 320px){
+	
+}*/
+
+
+
+
+
+
+
+
+@keyframes go1{
+	0% {
+		transform: translateZ(25px);
+	}
+	100% {
+		transform: translateZ(0px);
+	}
+}
+@keyframes go2{
+	0% {
+		transform: translateZ(50px);
+	}
+	100% {
+		transform: translateZ(0px);
+	}
+}
+@keyframes go3{
+	0% {
+		transform: translateZ(75px);
+	}
+	100% {
+		transform: translateZ(0px);
+	}
+}
+@keyframes go4{
+	0% {
+		transform: translateZ(100px);
+	}
+	100% {
+		transform: translateZ(0px);
+	}
+}
+
+@keyframes arrw{
+	0% {
+		transform: translateY(0%);
+	}
+	100% {
+		transform: translateY(20%);
+	}
+}
+

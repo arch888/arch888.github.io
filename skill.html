@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -61,8 +62,47 @@
 
 
 
-<div class="detailing">
-	
+<div class="skill_page">
+	<div class="boxes">
+		<div class="box1" id="b1">
+			<img src="img/js.png">
+		</div>
+		<div class="box2" id="b2">
+			<img src="img/java.png">
+		</div>
+		<div class="box3" id="b3">
+			<img src="img/c_plus.png">
+		</div>
+		<div class="box4" id="b4">
+			<img src="img/c_prog.png">
+		</div>
+		<div class="box5" id="b5">
+			<img src="img/python.png">
+		</div>
+	</div>
+	<div class="boxes2">
+		<div class="box6" id="b6">
+			<img src="img/sql.png">
+		</div>
+		<div class="box7" id="b7">
+			<img src="img/bootstrap.png">
+		</div>
+		<div class="box8" id="b8">
+			<img src="img/css.png">
+		</div>
+		<div class="box9" id="b9">
+			<img src="img/html.png">
+		</div>
+		<div class="box10" id="b10">
+			<img src="img/django.png">
+		</div>
+	</div>	
+	<div class="arrow">
+		<i class="fas fa-chevron-down fa-lg" style="color: white;" onclick="godown()"> </i>
+	</div>
+	<div class="arrow1">
+		<i class="fas fa-chevron-down fa-lg" style="color: white;" onclick="godowns()"> </i>
+	</div>
 </div>
 
 
@@ -171,7 +211,81 @@
 </div>
 
 
+<script type="text/javascript">
+	
+	var b=1;
+	var b10=document.getElementById('b10');
+	var b9=document.getElementById('b9');
+	var b8=document.getElementById('b8');
+	var b7=document.getElementById('b7');
+	var b6=document.getElementById('b6');
+	function godowns(){
+		if (b==1){
+			setTimeout(function(){
+				document.getElementById('b10').style.display="none";
+			},900);
+			b10.classList.add("mjk");
+			b9.classList.add("mjl");
+			b8.classList.add("mjm");
+			b7.classList.add("mjn");
 
+			b=2;
+		}
+		else if (b==2){
+			setTimeout(function(){
+				document.getElementById('b9').style.display="none";
+			},900);
+			b9.classList.remove("mjl");
+			b8.classList.remove("mjm");
+			b7.classList.remove("mjn");
+			void b9.offsetWidth;
+			void b8.offsetWidth;
+			void b7.offsetWidth;
+			b9.classList.add("mjl");
+			b8.classList.add("mjm");
+			b7.classList.add("mjn");
+			b=3;
+		}
+		else if (b==3){
+			setTimeout(function(){
+				document.getElementById('b8').style.display="none";
+			},900);
+			b9.classList.remove("mjl");
+			b8.classList.remove("mjm");
+			b7.classList.remove("mjn");
+			void b9.offsetWidth;
+			void b8.offsetWidth;
+			void b7.offsetWidth;
+			b9.classList.add("mjl");
+			b8.classList.add("mjm");
+			b7.classList.add("mjn");
+			b=4;
+		}
+		else if (b==4){
+			setTimeout(function(){
+				document.getElementById('b7').style.display="none";
+			},900);
+			b9.classList.remove("mjl");
+			b8.classList.remove("mjm");
+			b7.classList.remove("mjn");
+			void b9.offsetWidth;
+			void b8.offsetWidth;
+			void b7.offsetWidth;
+			b9.classList.add("mjl");
+			b8.classList.add("mjm");
+			b7.classList.add("mjn");
+			b=5;
+		}
+		else if (b==5){
+			document.getElementById('b10').style.display="block";
+			document.getElementById('b9').style.display="block";
+			document.getElementById('b8').style.display="block";
+			document.getElementById('b7').style.display="block";
+			document.getElementById('b6').style.display="block";
+			b=1;
+		}
+	}
+</script>
 	<script type="text/javascript" src="js/skill.js"></script>
   </body>
 </html>
