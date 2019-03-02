@@ -878,18 +878,40 @@
 	.arrow1{
 		top:75vh;
 	}
-}
-@media screen and (max-width: 350px){
+	.arrow{
+		top:30vh;
+	}
 	.boxes, .boxes2{
-		transform: perspective(20000px) rotateX(75deg) rotateY(0deg) rotateZ(-10deg);
+		transform: perspective(90000000em) rotateX(75deg) rotateY(0deg) rotateZ(-10deg);
 	}
 	.box1, .box2, .box3, .box4, .box5{
-		width: 40vw;
-		height: 40vw;
+		width: 45vw;
+		height: 45vw;
 	}
 	.box6, .box7, .box8, .box9, .box10{
-		width: 40vw;
-		height: 40vw;
+		width: 45vw;
+		height: 45vw;
+	}
+	.box5 img, .box4 img, .box3 img, .box2 img, .box1 img, .box6 img, .box7 img, .box8 img,
+.box9 img, .box10 img{
+	width: 35vw;
+	height: 35vw;
+}
+}
+@media screen and (max-width: 350px){
+	.arrow{
+		top:30vh;
+	}
+	.boxes, .boxes2{
+		transform: perspective(90000000em) rotateX(75deg) rotateY(0deg) rotateZ(-10deg);
+	}
+	.box1, .box2, .box3, .box4, .box5{
+		width: 45vw;
+		height: 45vw;
+	}
+	.box6, .box7, .box8, .box9, .box10{
+		width: 45vw;
+		height: 45vw;
 	}
 	.box5 img, .box4 img, .box3 img, .box2 img, .box1 img, .box6 img, .box7 img, .box8 img,
 .box9 img, .box10 img{
