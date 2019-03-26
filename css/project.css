@@ -1,4 +1,5 @@
 
+
 /*Content #############################################
 #######################################################
 #######################################################*/
@@ -647,13 +648,82 @@
 
 .projects{
 	position: absolute;
-	height: 100%;
-	z-index: 22;
+	top: 0;
+	left: 0;
+	background: transparent;
+	z-index: 21;
 }
 
 
 
 .proj1{
+	margin-top: 12vh;
+	margin-left: 5vw;
 	width: 100vw;
 	height: 100%;
 }
+
+
+.proj1_header{
+	color: white;
+	font-size: 1.5em;
+	margin: 0;
+	margin-bottom: 2vh;
+	display: grid;
+	justify-content: center;
+}
+
+.proj1_video{
+	width: 60vw;
+	height: 55vh;
+}
+
+
+
+.proj1_desc{
+	position: absolute;
+	top: 20vh;
+	left: 70vw;
+	width: 25vw;
+	height: 55vh;
+	background-color: rgba(38,38,38,0.8);
+	padding-top: 2vh;
+	border-radius: 1vw;
+	color: white;
+	box-shadow: 2px 2px 50px 2px #fff;
+}
+
+
+.proj1_desc_head{
+	color: white;
+
+}
+
+.proj1_desc_cont{
+	color: white;
+	margin-top: 3vh;
+}
+
+
+.proj1_desc_git{
+	display: grid;
+	justify-content: center;
+}
+
+
+
+
+.proj1_desc_git img{
+	width: 2vw;
+	height: 5vh;
+}
+
+
+
+.proj1_next{
+	position: absolute;
+	top: 48vh;
+	left: 95vw;
+	width: 2vw;
+}
+
