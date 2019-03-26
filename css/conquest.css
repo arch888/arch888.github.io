@@ -635,3 +635,24 @@
 		-webkit-transform: translateY(200%);
 	}	
 }
+
+
+
+
+
+
+
+/*Detailing CSS*/
+
+
+.detailing{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: grid;
+	justify-content: center;
+	color: white;
+	z-index: 21;
+	margin-top: 25%;
+}
