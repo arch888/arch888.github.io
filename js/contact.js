@@ -98,6 +98,6 @@ function showcont(){
 		document.getElementById('anim_cont_img').classList.remove('hide');
 	}, 2000);
 	setTimeout(function() {
-	  window.location.href = "contact.html";
+	  window.location.href = "contact.html#reco";
 	}, 5000);
 }
