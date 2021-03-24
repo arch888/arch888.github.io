@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://github.com/arch888/Coding_Judge/blob/master/static/Documentation/Coding-Judge.png">
+  <img src="https://github.com/archit-dwevedi/archit-dwevedi/blob/master/Coding_Judge/Documentation/Coding-Judge.png">
 </div>
 
 # Coding Judge
 
-[![Github licence](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/arch888/Coding_Judge/blob/master/LICENSE) [![Generic Badge](https://img.shields.io/badge/Python_Version-3.7.2-brightgreen.svg)](https://github.com/arch888/Coding_Judge) [![Generic Badge](https://img.shields.io/badge/Django-3.0.2-brightgreen.svg)](https://docs.djangoproject.com/en/3.0/) [![Generic Badge](https://img.shields.io/badge/Vulnerabilities-0-brightgreen.svg)](https://github.com/arch888/Coding_Judge) 
+[![Github licence](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/archit-dwevedi/Coding_Judge/blob/master/LICENSE) [![Generic Badge](https://img.shields.io/badge/Python_Version-3.7.2-brightgreen.svg)](https://github.com/archit-dwevedi/Coding_Judge) [![Generic Badge](https://img.shields.io/badge/Django-3.0.2-brightgreen.svg)](https://docs.djangoproject.com/en/3.0/) [![Generic Badge](https://img.shields.io/badge/Vulnerabilities-0-brightgreen.svg)](https://github.com/archit-dwevedi/Coding_Judge) 
 
 ## About Problem
 
@@ -190,7 +190,7 @@ Supported Programming Languages -
 ### ER Diagram
 
 <div align="center">
-  <img src="https://github.com/arch888/Coding_Judge/blob/master/static/Documentation/ERD.jpg" alt="ERD">
+  <img src="https://github.com/archit-dwevedi/archit-dwevedi.github.io/blob/master/Coding_Judge/Documentation/ERD.jpg" alt="ERD">
 </div>
 
 ## Pre-requisites of Project
@@ -210,7 +210,7 @@ Supported Programming Languages -
 To clone the repository open the terminal and run below command:
 
 ```
-git clone https://github.com/arch888/Coding_Judge
+git clone https://github.com/archit-dwevedi/Coding_Judge
 ```
 
 Change the current directory to the project directory:
