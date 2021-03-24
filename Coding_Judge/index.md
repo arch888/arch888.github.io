@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/archit-dwevedi/archit-dwevedi/blob/master/Coding_Judge/Documentation/Coding-Judge.png">
+  <img src="https://github.com/archit-dwevedi/archit-dwevedi.github.io/blob/master/Coding_Judge/Documentation/Coding-Judge.png">
 </div>
 
 # Coding Judge
